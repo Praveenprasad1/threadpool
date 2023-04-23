@@ -1,7 +1,9 @@
 # threadpool
 Refer below console logs on information to build and run (and platform infos) : -
 Build: cc threadpool.c -lpthread
+
 =======================================================================================
+
 praveen@latitude-3410-i5:~/trcode/threads/threadPools$ cc threadJobPool2.c -lpthread
 praveen@latitude-3410-i5:~/trcode/threads/threadPools$ ll
 total 24
