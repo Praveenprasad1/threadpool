@@ -13,9 +13,10 @@ cc threadpool2.c -lpthread -o threadpool2
 Platform Infos:
 ---------------
 
-All platforms supporting posix threads.
+All platforms supporting posix threads should be fine.
 
-For Example:
+Example platform:
+-----------------
 Distributor ID:	Ubuntu
 Description:	Ubuntu 18.04.2 LTS (beaver-osp1-maester X48)
 Release:	18.04
