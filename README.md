@@ -8,6 +8,7 @@ Refer below console logs on information to build and run (and platform infos).
 Build Infos:
 ------------
 cc threadpool.c -lpthread -o threadpool
+cc threadpool2.c -lpthread -o threadpool2
 
 Platform Infos:
 ---------------
