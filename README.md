@@ -5,7 +5,9 @@ praveen@praveen-latitude-3410:~/trcode/threads/threadPools$ cc testFooThreadSafe
 After running, to terminate the execution gracefully, input 0 and "return" to stop all the threads and the main program. Ofcourse one may terminate with Ctrl-C but not all the logs could come as expected.
 
 ===Console Run Logs (Observe the logs to decipher the different instantiation of stack local variables yourself)===
-praveen@praveen-latitude-3410:~/trcode/threads/threadPools$ cc testFooThreadSafety.c 
+
+praveen@praveen-latitude-3410:~/trcode/threads/threadPools$ cc testFooThreadSafety.c
+
 praveen@praveen-latitude-3410:~/trcode/threads/threadPools$ ./a.out 
 
 Main(): Initializing all Job threads.
