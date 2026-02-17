@@ -20,6 +20,8 @@ than framework abstractions.
 The emphasis is on understanding behaviour, not hiding complexity.
 
 ---
+## Purpose Of Repository
+   2-Clause BSD Public License.
 
 ## Design Goals
 
