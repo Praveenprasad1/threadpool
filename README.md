@@ -1,3 +1,10 @@
+Design goals:
+• Predictable latency under contention
+• Minimal lock contention
+• Scalable worker lifecycle management
+• Suitable for protocol-processing pipelines
+
+====================================================================================
 About the new file testFooThreadSafety.c which is added here on the "Master" branch:
 To compile, use gcc or any c compiler as below: 
 praveen@praveen-latitude-3410:~/trcode/threads/threadPools$ cc testFooThreadSafety.c
