@@ -20,7 +20,7 @@ than framework abstractions.
 The emphasis is on understanding behaviour, not hiding complexity.
 
 ## Project License
-   - Under 2-Clause BSD Public License.
+   - Released under 2-Clause BSD Public License.
 
 ---
 
