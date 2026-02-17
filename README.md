@@ -12,8 +12,8 @@ than framework abstractions.
 ## Purpose of This Repository
 
 This project is part of ongoing experimentation into:
-	•	concurrent execution models
-	•	low-latency infrastructure components
+	**•	concurrent execution models**
+	**•	low-latency infrastructure components**
 	•	protocol and IO processing pipelines
 	•	systems programming using C/C++
 
