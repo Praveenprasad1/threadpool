@@ -1,9 +1,53 @@
-Design goals:
-• Predictable latency under contention
-• Minimal lock contention
-• Scalable worker lifecycle management
-• Suitable for protocol-processing pipelines
+# Thread Pool – Systems-Oriented Implementation
 
+A lightweight thread pool implementation written in C, focused on
+predictable behaviour under load and suitability for high-performance
+systems such as protocol processors, network services, and infrastructure
+components.
+
+This repository serves as an experimentation space for studying
+concurrency design trade-offs using first-principles approaches rather
+than framework abstractions.
+
+---
+
+## Design Goals
+
+- **Predictable latency under contention**  
+  Ensure task execution latency remains stable even when multiple producers
+  compete for worker resources.
+
+- **Minimal lock contention**  
+  Reduce synchronization overhead through careful queue access patterns
+  and controlled critical sections.
+
+- **Scalable worker lifecycle management**  
+  Support efficient creation, reuse, sleep, and shutdown of worker threads
+  without excessive context switching.
+
+- **Suitable for protocol-processing pipelines**  
+  Designed to integrate naturally with staged or event-driven systems where
+  connections mature over time and are processed incrementally.
+
+---
+
+## Architecture Overview
+
+The implementation focuses on:
+
+- Producer → Work Queue → Worker execution model
+- Controlled synchronization primitives
+- Efficient wakeup and sleep mechanisms
+- Separation between task submission and execution domains
+
+The goal is not maximum feature richness, but **clarity of concurrency
+behaviour and performance predictability**.
+
+---
+
+## Runtime Behaviour
+
+Example execution output:
 ====================================================================================
 About the new file testFooThreadSafety.c which is added here on the "Master" branch:
 To compile, use gcc or any c compiler as below: 
