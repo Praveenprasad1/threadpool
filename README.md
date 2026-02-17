@@ -9,13 +9,13 @@ This repository serves as an experimentation space for studying
 concurrency design trade-offs using first-principles approaches rather
 than framework abstractions.
 
-## Purpose of This Repository
+## Purpose:
 
 This project is part of ongoing experimentation into:
 	**•	concurrent execution models**
 	**•	low-latency infrastructure components**
-	•	protocol and IO processing pipelines
-	•	systems programming using C/C++
+	**•	protocol and IO processing pipelines**
+	**•	systems programming using C/C++**
 
 The emphasis is on understanding behaviour, not hiding complexity.
 
