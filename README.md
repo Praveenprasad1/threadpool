@@ -9,7 +9,7 @@ This repository serves as an experimentation space for studying
 concurrency design trade-offs using first-principles approaches rather
 than framework abstractions.
 
-## Purpose:
+## Purpose Of Repository
 
 This project is part of ongoing experimentation into:
 	**•	concurrent execution models**
