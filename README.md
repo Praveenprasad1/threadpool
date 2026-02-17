@@ -11,11 +11,11 @@ than framework abstractions.
 
 ## Purpose Of Repository
 
-This project is part of ongoing experimentation into:
-	- **•	concurrent execution models**
-	- **•	low-latency infrastructure components**
-	- **•	protocol and IO processing pipelines**
-	- **•	systems programming using C/C++**
+- **This project is part of ongoing experimentation into:**
+  •	concurrent execution models
+  •	low-latency infrastructure components
+  •	protocol and IO processing pipelines
+  •	systems programming using C/C++
 
 The emphasis is on understanding behaviour, not hiding complexity.
 
